@@ -3,6 +3,11 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!--  0.60 버전 이상에서는 Auto Linking을 지원하기 때문에 권한 설정을 별도로 해주지 않아도 된다. 만약 추가로 설정했을 경우에는, 오류가 발생하는 경우가 있다. -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
       android:name=".MainApplication"
       android:label="@string/app_name"
